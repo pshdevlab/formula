@@ -2,3 +2,5 @@ kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
 theme: jekyll-theme-minimal
+title: Тестова розробка
+description: Тестова сторінка для фомул
