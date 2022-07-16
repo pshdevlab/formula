@@ -1,5 +1,4 @@
 theme: jekyll-theme-leap-day
-title: Тестова розробка
-description: Тестова сторінка для фомул
-author: Тестовий сайт
-logo: /assets/img/robot-1.jpg
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
