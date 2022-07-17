@@ -41,17 +41,17 @@ class="wrapper"
  -->
 
     <div class="wrapper">
-      <nav>
-        <ul class="sidebar-nav">
-              <strong>Navigation</strong>
-              <li><a href="/">Home</a></li>
-              {% for i in site.ctx %}
-                <li><a  href="{{ i.url }}">{{ i.text }}</a></li>
-              {% endfor %}
-        </ul>
-
-
-      </nav>
+      <header>
+          <nav>
+            <ul class="sidebar-nav">
+                  <strong>Navigation</strong>
+                  <li><a href="/">Home</a></li>
+                  {% for i in site.ctx %}
+                    <li><a  href="{{ i.url }}">{{ i.text }}</a></li>
+                  {% endfor %}
+            </ul>
+          </nav>
+      </header>
       <section>
         {{ content }}
 
