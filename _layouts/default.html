@@ -38,9 +38,9 @@
       </div><!-- end banner -->
 
     <div class="wrapper">
-      <div class="profile-about">
+      <nav class="sidebar-nav">
    
-            <ul class="sidebar-nav">
+            <ul>
               <strong>Зміст</strong>
               {% for i in site.ctx %}
                 <li><a  href="{{ i.url }}">{{ i.text }}</a></li>
@@ -48,7 +48,7 @@
 
             </ul>
  
-      </div>      
+          </nav>      
       <section>
         {{ content }}
 
