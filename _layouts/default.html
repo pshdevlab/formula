@@ -39,22 +39,24 @@
 
     <div class="wrapper">
       <header>
-        <div style="overflow-y: scroll; height:400px;">
-          <nav>
-    
-            <ul>
-                <strong>Зміст</strong>
-                <li>ffffff</li>
-                {% for i in site.ctx %}
-                  <li><a  href="{{ i.url }}">{{ i.text }}</a></li>
-                {% endfor %}
 
-            </ul>
-  
-          </nav>   
-        </div>>   
       </header>    
+      <div style="overflow-y: scroll; height:200px;">
+        <nav>
+  
+          <ul>
+              <strong>Зміст</strong>
+              <li>ffffff</li>
+              {% for i in site.ctx %}
+                <li><a  href="{{ i.url }}">{{ i.text }}</a></li>
+              {% endfor %}
+
+          </ul>
+
+        </nav>   
+      </div>>   
       <section>
+
         {{ content }}
 
       </section>
