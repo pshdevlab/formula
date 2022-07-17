@@ -39,26 +39,24 @@
   -->
     <div class="wrapper">
  
-        <div class="land">
-          <div class="navmenu">
+        <section> 
+          <nav>
+            <ul>
+              <strong>Зміст</strong>
+              <li>ffffff</li>
+              {% for i in site.ctx %}
+                <li><a  href="{{ i.url }}">{{ i.text }}</a></li>
+              {% endfor %}
+            </ul>
+          </nav>
+        </section>
             
-              <ul>
-                  <strong>Зміст</strong>
-                  <li>ffffff</li>
-                  {% for i in site.ctx %}
-                    <li><a  href="{{ i.url }}">{{ i.text }}</a></li>
-                  {% endfor %}
-              </ul>
-             
-          </div>  
-          <div class="content">
-           
-
+        <article>             
               {{ content }}
+        </article>      
      
       
-          </div>
-        </div>
+
        
      
        <!--
