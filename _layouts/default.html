@@ -39,7 +39,7 @@
 
     <div class="wrapper">
     
-      <div style="overflow-y: scroll; height:200px;">
+      <div id="menu"></div>
         <nav>
   
           <ul>
@@ -53,11 +53,14 @@
 
         </nav>   
       </div>  
-      <section>
+      <div id="container">
+        <section>
 
-        {{ content }}
-
-      </section>
+          {{ content }}
+  
+        </section>
+  
+      </div>
       <footer>
         {% if site.github.is_project_page %}
           <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>

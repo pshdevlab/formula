@@ -53,3 +53,23 @@
   }
       
 
+  #container {
+    position:absolute;
+    width:100%;
+    top:0;
+    bottom:0;
+    z-index:-1;
+    overflow:hidden;
+    background: #FF0000;
+  }
+   
+  #menu {
+    overflow-y: scroll;
+    width:200px;
+    background: #FFFFFF;
+    float:left;
+    height:30px;
+    margin-top:54px
+    position: absolute;
+  }
+
