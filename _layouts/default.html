@@ -21,8 +21,7 @@
         <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
         <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
       </header>
-<!--
-      <p>зараз коментую</p> 
+
       <div id="banner">
         <span id="logo"></span>
 
@@ -37,33 +36,20 @@
           </div>
         {% endif %}
       </div><!-- end banner -->
-class="wrapper"
- -->
 
     <div class="wrapper">
-      <header>
-        <div>
-          <nav>
-            <ul class="sidebar-nav">
-                  <strong>Зміст</strong>
-                  {% for i in site.ctx %}
-                    <li><a  href="{{ i.url }}">{{ i.text }}</a></li>
-                  {% endfor %}
-            </ul>
-          </nav>
-        </div>> 
-      </header>
+      <nav>
+        <ul></ul>
+      </nav>
       <section>
         {{ content }}
 
       </section>
       <footer>
-       <!--
         {% if site.github.is_project_page %}
           <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></small></p>
-       -->
       </footer>
     </div>
   </body>
