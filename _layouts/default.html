@@ -39,9 +39,15 @@
 
     <div class="wrapper">
       <div class="profile-about">
-          <nav>
-            <ul></ul>
-          </nav>
+   
+            <ul class="sidebar-nav">
+              <strong>Зміст</strong>
+              {% for i in site.ctx %}
+                <li><a  href="{{ i.url }}">{{ i.text }}</a></li>
+              {% endfor %}
+
+            </ul>
+ 
       </div>      
       <section>
         {{ content }}
