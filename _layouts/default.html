@@ -37,14 +37,15 @@
           </div>
         {% endif %}
       </div><!-- end banner -->
+class="wrapper"
  -->
-    <div class="wrapper">
+    <div  class="profile-about">
       <nav>
         <ul class="sidebar-nav">
               <strong>Navigation</strong>
               <li><a href="/">Home</a></li>
               {% for i in site.ctx %}
-                <li><a  href="{{ i.url }}">{{ i.text }}</a></li>
+                <li class="about"><a  href="{{ i.url }}">{{ i.text }}</a></li>
               {% endfor %}
         </ul>
 
