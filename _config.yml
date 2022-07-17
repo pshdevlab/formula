@@ -3,12 +3,6 @@ kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
 ctx:
-    - text: Про себе
-      url: /about/
-    - text: Проекти
-      url: /projects/
-    - text: Корисні лінки
-      url: /uflinks/
     - text: Розділ 1. Основні поняття і принципи побудови сучасних систем автоматизації 
       url: /formula/1.html
     - text: 1.1. Основні поняття і визначення
