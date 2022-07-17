@@ -38,18 +38,21 @@
       </div><!-- end banner -->
 
     <div class="wrapper">
-      <nav>
+      <header>
+      
+        <nav>
    
-            <ul>
+          <ul>
               <strong>Зміст</strong>
               <li>ffffff</li>
               {% for i in site.ctx %}
                 <li><a  href="{{ i.url }}">{{ i.text }}</a></li>
               {% endfor %}
 
-            </ul>
+          </ul>
  
-          </nav>      
+        </nav>      
+      </header>    
       <section>
         {{ content }}
 
